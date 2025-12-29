@@ -301,14 +301,14 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🐛 Known Issues
 
-None currently. Report issues on [GitHub Issues](https://github.com/yourusername/transshare/issues).
+None currently. Report issues on [GitHub Issues](https://github.com/SelfC0de/transshare/issues).
 
 ---
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/transshare/issues)
-- **Email:** your.email@example.com
+- **Issues:** [GitHub Issues](https://github.com/SelfC0de/transshare/issues)
+- **Email:** selfcode.dev@gmail.com
 
 ---
 
