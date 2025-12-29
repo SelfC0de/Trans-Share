@@ -1,315 +1,315 @@
 # 📡 TransShare
 
-**Wireless file transfer application with QR code sharing**
+**Беспроводная передача файлов с QR-кодом**
 
-Fast and secure file sharing between PC and mobile devices over local network. No internet connection required.
+Быстрая и безопасная передача файлов между ПК и мобильными устройствами через локальную сеть. Интернет не требуется.
 
 <img width="552" height="519" alt="image" src="https://github.com/user-attachments/assets/94941d04-dd0b-4d94-824b-816fce3b4f14" />
 
 ---
 
-## ✨ Features
+## ✨ Возможности
 
-- 🔄 **Wireless Transfer** - Share files via WiFi without cables
-- 📱 **QR Code Scanning** - Instant connection from mobile devices
-- 🔒 **Password Protection** - Secure your transfers with optional password
-- 🔗 **URL Shortener** - Clean, short URLs for easy sharing
-- 📦 **Compression** - Automatic ZIP compression for folders and multiple files
-- 🚀 **Fast Transfer** - Direct HTTP server, no third-party services
-- 🎨 **Modern UI** - Clean glassmorphism design with dark/light themes
-- 🔥 **No Installation on Mobile** - Works in any browser
-
----
-
-## 🖥️ System Requirements
-
-- **OS:** Windows 10/11
-- **Python:** 3.8 or higher
-- **Network:** WiFi connection
+- 🔄 **Беспроводная передача** - Обмен файлами через WiFi без кабелей
+- 📱 **Сканирование QR-кода** - Мгновенное подключение с мобильных устройств
+- 🔒 **Защита паролем** - Безопасная передача с опциональным паролем
+- 🔗 **Короткие URL** - Чистые, короткие ссылки для удобного обмена
+- 📦 **Сжатие** - Автоматическая ZIP-архивация папок и нескольких файлов
+- 🚀 **Быстрая передача** - Прямой HTTP сервер, без сторонних сервисов
+- 🎨 **Современный интерфейс** - Чистый дизайн с эффектом стекла и тёмной/светлой темой
+- 🔥 **Без установки на телефон** - Работает в любом браузере
 
 ---
 
-## 🚀 Quick Start
+## 🖥️ Системные требования
 
-### Basic File Transfer
-
-1. Launch TransShare
-2. Click **File** tab → Select file or folder
-3. Click **Share** tab → Press **Start Server**
-4. Scan QR code with mobile device
-5. File downloads automatically
-
-### With Password Protection
-
-1. Go to **Security** tab
-2. Enable "Защитить файл паролем"
-3. Enter password (minimum 4 characters)
-4. Start server
-5. Enter password on mobile when prompted
+- **ОС:** Windows 10/11
+- **Python:** 3.8 или выше
+- **Сеть:** WiFi подключение
 
 ---
 
-## 📖 User Guide
+## 🚀 Быстрый старт
 
-### Interface Tabs
+### Базовая передача файла
 
-| Tab | Description |
-|-----|-------------|
-| 🔄 **Share** | QR code, URL display, server controls |
-| 📄 **File** | File/folder selection, multi-file support |
-| 🔒 **Security** | URL shortener, password protection |
-| ⚙️ **Settings** | Port, compression, theme, network profile |
-| ✓ **Dev** | Application info, version, author |
+1. Запустите TransShare
+2. Вкладка **File** → Выберите файл или папку
+3. Вкладка **Share** → Нажмите **Start Server**
+4. Отсканируйте QR-код мобильным устройством
+5. Файл загрузится автоматически
 
-### File Selection
+### С защитой паролем
 
-**Single File:**
-- Click "Выбрать файл" → Select file
-
-**Multiple Files:**
-- Click "Выбрать несколько файлов" → Select multiple files
-- Automatically creates ZIP archive
-
-**Folder:**
-- Click "Выбрать папку" → Select folder
-- Automatically creates ZIP archive
-
-### Server Configuration
-
-**Port Settings:**
-- Default: `8080`
-- Range: `1024-65535`
-- Configure in Settings tab
-
-**Network Profile:**
-- **Private** (recommended) - Windows firewall allows connection
-- **Public** - May block connections
-
-**Auto-stop:**
-- Server stops automatically after first download
-- Enable in Settings tab
+1. Перейдите на вкладку **Security**
+2. Включите "Защитить файл паролем"
+3. Введите пароль (минимум 4 символа)
+4. Запустите сервер
+5. Введите пароль на телефоне при запросе
 
 ---
 
-## 🔒 Security Features
+## 📖 Руководство пользователя
 
-### URL Shortener
+### Вкладки интерфейса
 
-Converts long URLs to short format:
+| Вкладка | Описание |
+|---------|----------|
+| 🔄 **Share** | QR-код, отображение URL, управление сервером |
+| 📄 **File** | Выбор файла/папки, поддержка нескольких файлов |
+| 🔒 **Security** | Короткие URL, защита паролем |
+| ⚙️ **Settings** | Порт, сжатие, тема, сетевой профиль |
+| ✓ **Dev** | Информация о приложении, версия, автор |
+
+### Выбор файлов
+
+**Один файл:**
+- Нажмите "Выбрать файл" → Выберите файл
+
+**Несколько файлов:**
+- Нажмите "Выбрать несколько файлов" → Выберите несколько файлов
+- Автоматически создаётся ZIP-архив
+
+**Папка:**
+- Нажмите "Выбрать папку" → Выберите папку
+- Автоматически создаётся ZIP-архив
+
+### Настройка сервера
+
+**Настройки порта:**
+- По умолчанию: `8080`
+- Диапазон: `1024-65535`
+- Настраивается во вкладке Settings
+
+**Сетевой профиль:**
+- **Private** (рекомендуется) - Брандмауэр Windows разрешает подключение
+- **Public** - Может блокировать подключения
+
+**Авто-остановка:**
+- Сервер автоматически останавливается после первой загрузки
+- Включается во вкладке Settings
+
+---
+
+## 🔒 Функции безопасности
+
+### Короткие URL
+
+Преобразует длинные URL в короткий формат:
 ```
-Before: http://192.168.0.100:8080/download
-After:  http://192.168.0.100:8080/s/abc123
-```
-
-**Benefits:**
-- Easier to type manually
-- Cleaner appearance
-- Hides internal paths
-
-### Password Protection
-
-**Setup:**
-1. Security tab → Enable "Защитить файл паролем"
-2. Enter password (min 4 characters)
-3. Start server
-
-**Access Flow:**
-1. User opens URL
-2. Password prompt appears
-3. Correct password → Download starts
-4. Wrong password → Access denied
-
----
-
-## ⚙️ Configuration
-
-### Settings Options
-
-| Setting | Description | Default |
-|---------|-------------|---------|
-| **Port** | Server port | 8080 |
-| **Compression** | Enable ZIP compression | On |
-| **Auto-stop** | Stop after download | Off |
-| **Theme** | Dark/Light mode | Dark |
-| **Network Profile** | Private/Public | Private |
-
-### Firewall Configuration
-
-TransShare automatically adds Windows Firewall rule:
-```
-Rule Name: TransShare Server
-Port: Configured port
-Protocol: TCP
-Action: Allow
+До:    http://192.168.0.100:8080/download
+После: http://192.168.0.100:8080/s/abc123
 ```
 
+**Преимущества:**
+- Легче вводить вручную
+- Чище выглядит
+- Скрывает внутренние пути
+
+### Защита паролем
+
+**Настройка:**
+1. Вкладка Security → Включите "Защитить файл паролем"
+2. Введите пароль (мин. 4 символа)
+3. Запустите сервер
+
+**Процесс доступа:**
+1. Пользователь открывает URL
+2. Появляется запрос пароля
+3. Правильный пароль → Загрузка начинается
+4. Неверный пароль → Доступ запрещён
+
 ---
 
-## 🌐 Network Setup
+## ⚙️ Конфигурация
 
-### PC and Mobile Connection
+### Параметры настроек
 
-Both devices must be on the same WiFi network:
+| Параметр | Описание | По умолчанию |
+|----------|----------|--------------|
+| **Порт** | Порт сервера | 8080 |
+| **Сжатие** | Включить ZIP-сжатие | Вкл |
+| **Авто-остановка** | Остановка после загрузки | Выкл |
+| **Тема** | Тёмная/Светлая | Тёмная |
+| **Сетевой профиль** | Private/Public | Private |
 
-**PC:**
-- Connected to WiFi: `MyHomeNetwork`
+### Настройка брандмауэра
+
+TransShare автоматически добавляет правило в брандмауэр Windows:
+```
+Имя правила: TransShare Server
+Порт: Настроенный порт
+Протокол: TCP
+Действие: Разрешить
+```
+
+---
+
+## 🌐 Настройка сети
+
+### Подключение ПК и телефона
+
+Оба устройства должны быть в одной WiFi сети:
+
+**ПК:**
+- Подключен к WiFi: `MyHomeNetwork`
 - IP: `192.168.0.100`
 
-**Mobile:**
-- Connected to WiFi: `MyHomeNetwork`
-- Scans QR code → Opens URL
+**Телефон:**
+- Подключен к WiFi: `MyHomeNetwork`
+- Сканирует QR-код → Открывает URL
 
-### IP Address
+### IP адрес
 
-TransShare automatically detects your PC's local IP address.
+TransShare автоматически определяет локальный IP адрес вашего ПК.
 
-**Manual Check (Windows):**
+**Проверка вручную (Windows):**
 ```bash
 ipconfig
 ```
-Look for "IPv4 Address" under your WiFi adapter.
+Найдите "IPv4-адрес" под вашим WiFi адаптером.
 
 ---
 
-## 📱 Mobile Usage
+## 📱 Использование на телефоне
 
 ### Android
 
-1. Open Camera app
-2. Point at QR code
-3. Tap notification
-4. File downloads to `/Downloads`
+1. Откройте приложение Камера
+2. Наведите на QR-код
+3. Нажмите на уведомление
+4. Файл загрузится в `/Downloads`
 
 ### iPhone
 
-1. Open Camera app
-2. Point at QR code
-3. Tap banner
-4. File downloads (Safari → Downloads)
+1. Откройте приложение Камера
+2. Наведите на QR-код
+3. Нажмите на баннер
+4. Файл загрузится (Safari → Загрузки)
 
-### Manual Entry
+### Ручной ввод
 
-If QR scanning fails:
-1. Note URL from PC
-2. Open mobile browser
-3. Type URL
-4. Download starts
-
----
-
-## 🛠️ Troubleshooting
-
-### Connection Issues
-
-**Problem:** Mobile can't connect
-
-**Solutions:**
-1. Check both devices on same WiFi
-2. Disable VPN on PC
-3. Check Windows Firewall:
-   - Settings → Network → Firewall
-   - Allow TransShare
-4. Try different port (Settings → Port)
-5. Restart server
-
-### File Not Downloading
-
-**Problem:** URL opens but no download
-
-**Solutions:**
-1. Check file exists (File tab)
-2. Restart server
-3. Check server status (Share tab - green = active)
-
-### QR Code Issues
-
-**Problem:** QR code not scanning
-
-**Solutions:**
-1. Increase screen brightness
-2. Hold phone steady
-3. Use manual URL entry
-4. Check QR code is visible (not cut off)
+Если сканирование QR-кода не работает:
+1. Запомните URL с ПК
+2. Откройте браузер на телефоне
+3. Введите URL
+4. Загрузка начнётся
 
 ---
 
+## 🛠️ Решение проблем
 
+### Проблемы с подключением
 
-### HTTP Server
+**Проблема:** Телефон не может подключиться
 
-- **Protocol:** HTTP/1.1
-- **Method:** GET
-- **Streaming:** Chunked transfer (8KB chunks)
-- **Progress:** Real-time tracking
+**Решения:**
+1. Проверьте, что оба устройства в одной WiFi сети
+2. Отключите VPN на ПК
+3. Проверьте брандмауэр Windows:
+   - Настройки → Сеть → Брандмауэр
+   - Разрешите TransShare
+4. Попробуйте другой порт (Settings → Порт)
+5. Перезапустите сервер
 
-### URL Shortener
+### Файл не загружается
 
-- **Code Length:** 6 characters
-- **Character Set:** a-z, 2-9 (excludes similar: 0,o,1,l)
-- **Storage:** In-memory dictionary
-- **Collision:** Regenerates on conflict
+**Проблема:** URL открывается, но загрузка не начинается
+
+**Решения:**
+1. Проверьте, что файл выбран (вкладка File)
+2. Перезапустите сервер
+3. Проверьте статус сервера (вкладка Share - зелёный = активен)
+
+### Проблемы с QR-кодом
+
+**Проблема:** QR-код не сканируется
+
+**Решения:**
+1. Увеличьте яркость экрана
+2. Держите телефон неподвижно
+3. Используйте ручной ввод URL
+4. Убедитесь, что QR-код виден полностью (не обрезан)
 
 ---
 
-## 🤝 Contributing
+## 🔧 Технические детали
 
-Contributions are welcome!
+### HTTP сервер
 
-1. Fork repository
-2. Create feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open Pull Request
+- **Протокол:** HTTP/1.1
+- **Метод:** GET
+- **Потоковая передача:** Chunked transfer (блоки по 8KB)
+- **Прогресс:** Отслеживание в реальном времени
+
+### Генератор коротких URL
+
+- **Длина кода:** 6 символов
+- **Набор символов:** a-z, 2-9 (исключены похожие: 0,o,1,l)
+- **Хранение:** Словарь в памяти
+- **Коллизии:** Регенерация при конфликте
 
 ---
 
-## 📄 License
+## 🤝 Участие в разработке
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+Приветствуются любые вклады!
+
+1. Форкните репозиторий
+2. Создайте ветку функции: `git checkout -b feature/AmazingFeature`
+3. Закоммитьте изменения: `git commit -m 'Add AmazingFeature'`
+4. Запушьте в ветку: `git push origin feature/AmazingFeature`
+5. Откройте Pull Request
 
 ---
 
-## 👤 Author
+## 📄 Лицензия
+
+Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для деталей.
+
+---
+
+## 👤 Автор
 
 **SelfCode**
 
-- GitHub: [@SelfCode](https://github.com/SelfC0de)
+- GitHub: [@SelfC0de](https://github.com/SelfC0de)
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Благодарности
 
-- PyQt5 for the GUI framework
-- QR code generation library
-- Glassmorphism design inspiration
-
----
-
-## 📊 Version History
-
-### v1.0.0 (Current)
-- ✅ QR code file sharing
-- ✅ Password protection
-- ✅ URL shortener
-- ✅ Multi-file support
-- ✅ Automatic compression
-- ✅ Dark/Light themes
-- ✅ Real-time progress tracking
-- ✅ Automatic firewall configuration
+- PyQt5 за GUI фреймворк
+- Библиотека генерации QR-кодов
+- Вдохновение дизайном glassmorphism
 
 ---
 
-## 🐛 Known Issues
+## 📊 История версий
 
-None currently. Report issues on [GitHub Issues](https://github.com/SelfC0de/transshare/issues).
+### v1.0.0 (Текущая)
+- ✅ Передача файлов через QR-код
+- ✅ Защита паролем
+- ✅ Короткие URL
+- ✅ Поддержка нескольких файлов
+- ✅ Автоматическое сжатие
+- ✅ Тёмная/Светлая темы
+- ✅ Отслеживание прогресса в реальном времени
+- ✅ Автоматическая настройка брандмауэра
 
 ---
 
-## 📞 Support
+## 🐛 Известные проблемы
 
-- **Issues:** [GitHub Issues](https://github.com/SelfC0de/transshare/issues)
+На данный момент нет. Сообщайте о проблемах в [GitHub Issues](https://github.com/SelfC0de/transshare/issues).
+
+---
+
+## 📞 Поддержка
+
+- **Проблемы:** [GitHub Issues](https://github.com/SelfC0de/transshare/issues)
 - **Email:** selfcode.dev@gmail.com
 
 ---
 
-<p align="center">Made with ❤️ for easy file sharing</p>
+<p align="center">Сделано с ❤️ для удобной передачи файлов</p>
