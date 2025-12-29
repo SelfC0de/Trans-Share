@@ -29,26 +29,6 @@ Fast and secure file sharing between PC and mobile devices over local network. N
 
 ---
 
-## 📦 Installation
-
-1. **Clone repository:**
-```bash
-git clone https://github.com/yourusername/transshare.git
-cd transshare
-```
-
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run application:**
-```bash
-python main.py
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Basic File Transfer
