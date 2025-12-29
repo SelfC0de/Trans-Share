@@ -273,7 +273,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 **SelfCode**
 
-- GitHub: [@SelfCode](https://github.com/SelfCode)
+- GitHub: [@SelfCode](https://github.com/SelfC0de)
 
 ---
 
